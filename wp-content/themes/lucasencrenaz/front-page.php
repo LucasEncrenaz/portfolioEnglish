@@ -1,5 +1,6 @@
 <?php
 get_header();
+include_once('php/menu.php');
 ?>
 
 <div id="primary" class="site-content">

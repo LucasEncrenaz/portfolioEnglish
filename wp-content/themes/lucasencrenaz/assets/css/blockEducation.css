@@ -1,0 +1,53 @@
+/* block Education */
+
+.homePage .blockEducation {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 50px 0;
+}
+
+.homePage .blockEducation .wp-block-group__inner-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage .blockEducation h2 {
+    width: 20%;
+    font-size: 2.5rem;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.homePage .blockEducation .wp-block-column p em {
+    font-style: normal;
+    color: #3180F1;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage .blockEducation h2 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .homePage .blockEducation .wp-block-column {
+        border-bottom: 2px solid #D4D4D4;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .homePage .blockEducation .wp-block-columns:last-child .wp-block-column:last-child {
+        border-bottom: none;
+    }
+
+    .homePage .blockEducation .wp-block-column h3 {
+        text-align: justify;
+    }
+
+    .homePage .blockEducation .wp-block-column p {
+        text-align: justify;
+    }
+}

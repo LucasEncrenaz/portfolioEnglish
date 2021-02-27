@@ -1,0 +1,39 @@
+/* Block Bannière */
+
+.homePage .blockBanner {
+    height: 100vh;
+}
+
+.homePage .blockBanner .wp-block-image img {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.homePage .blockBanner .wp-block-cover__inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage .blockBanner h1 {
+    font-size: 5rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+}
+
+.homePage .blockBanner h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage .blockBanner h1 {
+        font-size: 2rem;
+    }
+
+    .homePage .blockBanner h2 {
+        font-size: 1.5rem;
+    }
+}

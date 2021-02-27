@@ -27,3 +27,66 @@ wp_enqueue_style(
     array(),
     '1.0',
 );
+
+wp_enqueue_style(
+    'menu',
+    get_template_directory_uri().'/assets/css/menu.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockBanner',
+    get_template_directory_uri().'/assets/css/blockBanner.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockSkills',
+    get_template_directory_uri().'/assets/css/blockSkills.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockExpPro',
+    get_template_directory_uri().'/assets/css/blockExpPro.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockEducation',
+    get_template_directory_uri().'/assets/css/blockEducation.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockProjects',
+    get_template_directory_uri().'/assets/css/blockProjects.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockAboutMe',
+    get_template_directory_uri().'/assets/css/blockAboutMe.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockContactMe',
+    get_template_directory_uri().'/assets/css/blockContactMe.css',
+    array(),
+    '1.0',
+);
+
+wp_enqueue_style(
+    'blockReferences',
+    get_template_directory_uri().'/assets/css/blockReferences.css',
+    array(),
+    '1.0',
+);

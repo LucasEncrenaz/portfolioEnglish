@@ -1,0 +1,28 @@
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: #5F5F5F;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.menu .item .link {
+    text-decoration: none;
+    color: white;
+    transition: all 250ms;
+    font-size: 1.2rem;
+}
+
+.menu .item .link:hover {
+    color: #3180F1;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}

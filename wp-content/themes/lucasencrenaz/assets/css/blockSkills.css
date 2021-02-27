@@ -1,0 +1,26 @@
+/* Block Skills */
+
+.homePage .blockSkills {
+    padding: 30px 0 50px 0;
+}
+
+.homePage .blockSkills .wp-block-group__inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage .blockSkills h2 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage .blockSkills h2 {
+        width: 70%;
+        font-size: 1.5rem;
+    }
+}

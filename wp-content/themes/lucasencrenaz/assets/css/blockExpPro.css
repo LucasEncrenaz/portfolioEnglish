@@ -1,0 +1,71 @@
+/* Block Exp Pro */
+
+.homePage .blockWorkExperiences {
+    display: flex;
+    justify-content: center;
+    background-color: #D4D4D4;
+    padding: 30px 0 50px 0;
+}
+
+.homePage .blockWorkExperiences .wp-block-group__inner-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage .blockWorkExperiences h2 {
+    width: 30%;
+    font-size: 2.5rem;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.homePage .blockWorkExperiences .wp-block-columns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homePage .blockWorkExperiences .wp-block-column {
+    width: 40% !important;
+    flex-grow: unset !important;
+    flex-basis: unset !important;
+}
+
+.homePage .blockWorkExperiences .wp-block-column p em {
+    font-style: normal;
+    color: #3180F1;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage .blockWorkExperiences h2 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .homePage .blockWorkExperiences .wp-block-columns {
+        flex-direction: column;
+    }
+    
+    .homePage .blockWorkExperiences .wp-block-column {
+        width: 100% !important;
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .homePage .blockWorkExperiences .wp-block-columns:last-child .wp-block-column:last-child {
+        border-bottom: none;
+    }
+
+    .homePage .blockWorkExperiences .wp-block-column h3 {
+        text-align: justify;
+    }
+
+    .homePage .blockWorkExperiences .wp-block-column p {
+        text-align: justify;
+    }
+}
