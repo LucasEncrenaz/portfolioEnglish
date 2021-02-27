@@ -1,5 +1,13 @@
 <?php
 
+wp_enqueue_script(
+    'menu',
+    get_template_directory_uri() . '/assets/js/menu.js',
+    array('jquery'),
+    1.1,
+    true
+);
+
 wp_enqueue_style(
     'font-awesome',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css',
